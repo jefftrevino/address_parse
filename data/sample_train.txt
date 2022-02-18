@@ -1,0 +1,25 @@
+[(
+  '5524 Elmore Ave Bldg 266, PHILADELPHIA, PA, 19146 - 2701, US',
+  [
+    (16, 24, 'BUILDING_NAME'),
+    (0, 4, 'BUILDING_NO'),
+    (5, 15, 'STREET_NAME'),
+    (44, 56, 'ZIP_CODE'),
+    (26, 38, 'CITY'),
+    (40, 42, 'STATE'),
+    58, 60, 'COUNTRY')
+    ]
+  ),
+  (
+    '1172 Hudson Way Pl Bldg 3 Ste 530, LAKE OSWEGO, OR, 97035 - 5545, US',
+    [
+      (19, 25, 'BUILDING_NAME'),
+      (0, 4, 'BUILDING_NO'),
+      (5, 18, 'STREET_NAME'),
+      (52, 64, 'ZIP_CODE'),
+      (35, 46, 'CITY'),
+      (48, 50, 'STATE'),
+      (66, 68, 'COUNTRY')
+    ]
+  ),
+]
