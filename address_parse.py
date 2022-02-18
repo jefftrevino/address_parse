@@ -1,4 +1,4 @@
-# adapted from
+# adapted by Jeff Trevino (2022-02-18) from
 # https:\\github.com\swapnil-saxena\address-parser\blob\main\training_data_prep.py
 # by Swapnil Saxena, 2021-11-08
 
@@ -50,7 +50,6 @@ def get_doc_tuple_series(df):
 
 
 def create_doc_bin(training_data_series, nlp):
-    '''Create DocBin object for building training\test corpus'''
 	# a spaCy DocBin is a collectino of docs
     doc_bin = DocBin()
     for text, annotations in training_data_series.to_list():
