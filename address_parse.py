@@ -62,7 +62,6 @@ def create_doc_bin(training_data_series, nlp):
 def create_doc_from_text_and_annotations(text, annotations):
 	document = nlp(text)
 	annotation_tuples = []
-	print(annotations)
 	for start, end, label in annotations:
 		span = document.char_span(start, end, label=label)
 		annotation_tuples.append(span)
